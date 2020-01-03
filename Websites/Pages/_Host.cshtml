@@ -14,6 +14,7 @@
     <base href="~/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
 </head>
 <body>
     <app>
@@ -32,5 +33,16 @@
     </div>
 
     <script src="_framework/blazor.server.js"></script>
+    <script src="js/anchor-utils.js"></script>
+
+
+    <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+    <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+
+    <!--Костыль, но ничего адекватного придумать не получилось-->
+    <button id="specialButton" class="navbar-eye" href="#">
+        <span class="fa fa-low-vision"></span>
+    </button>
+
 </body>
 </html>

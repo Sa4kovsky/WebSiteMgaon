@@ -72,6 +72,13 @@ using Websites.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\sachkovski.ev\source\repos\Websites\Websites\_Imports.razor"
+using Websites.AnchorUtils;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
